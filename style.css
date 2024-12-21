@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222121;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+h1 {
+    text-align: center;
+    color: #0d0e0d;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #7c8ea0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h {
+    display: block;
+    font-size: 1.2rem;
+    color: #555;
+    margin: 20px 0 10px;
+}
+
+/* Paragraph Styling */
+p {
+    margin: 10px 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(15, 15, 15);
+}
+
+/* Bio Section */
+div {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+/* Links and Metadata */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+footer{
+    color: #ffffff;
+    text-align: center;
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    div {
+        padding: 15px;
+    }
+}
